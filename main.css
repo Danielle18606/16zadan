@@ -1,0 +1,23 @@
+﻿p {
+animation-duration: 10s;
+animation-name: slidein;
+animation-iteration-count: infinite;
+}
+@keyframes slidein {
+from {
+margin-left: 200%;
+width: 400%;
+}
+to {
+margin-left: 0%;
+width: 100%;
+}
+}
+
+.banner {
+	padding: 20px;
+	height: 20px;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+}
